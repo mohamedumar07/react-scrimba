@@ -1,0 +1,23 @@
+React
+
+rendering all our markup using react inside markup
+
+root in react -> once place where react will insert everything
+
+
+When you might not want a framework:
+
+	-> small project
+	-> Network Load Concern
+	-> Learning Curve
+	-> Maintenance concerns
+	-> Incompatibility with existing codebase
+
+
+createElement() of react is somewhat similar to document.createElement()
+ 
+createElement() returns a JS object which is understood by React.
+
+
+JSX -> HTML inside JS, but stricter than HTML
+    -> Has to be inside div tag or empty <> </> wrapper.
