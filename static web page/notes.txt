@@ -4,6 +4,8 @@ rendering all our markup using react inside markup
 
 root in react -> once place where react will insert everything
 
+createRoot() -> will take a DOM node as an input where all the markups will be stuffed inside
+
 
 When you might not want a framework:
 
@@ -21,3 +23,23 @@ createElement() returns a JS object which is understood by React.
 
 JSX -> HTML inside JS, but stricter than HTML
     -> Has to be inside div tag or empty <> </> wrapper.
+
+React takes the JSX code and uses the createElement.
+
+
+React is composable
+	-> Reusing the code, declaring a custom component and use it wherever needed.
+	-> putting together small pieces to build something large.
+
+Composability is achieved through components in react.
+
+
+Can render a single JSX at a time, which can have as many children as we want.
+
+React Component : Component which returns react element
+React element -> JSX Syntax -> createElement -> JS Object -> react interprets them and turn into real DOM element
+
+WorkAround For <div> in Component is to use Fragment In-Built component in React library.
+
+<> </> -> under the hood react implements the fragment for us.
+

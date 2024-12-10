@@ -1,4 +1,15 @@
-:root {
+body{
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+}
+
+h1{
+  margin-top: 30px;
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +76,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
