@@ -1,4 +1,7 @@
 import { createRoot } from "react-dom/client";
+import Header from "./components/Header"
+import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 import "./index.css"
 
 const root = createRoot(document.getElementById("root"))
@@ -12,40 +15,28 @@ root.render(
 function TemporaryName() {
   return (
     <main>
-    <img src="src/assets/React_logo_logotype_emblem-2514382006.png" width="40 px" alt="React logo" />
+      <img src="src/assets/React_logo_logotype_emblem-2514382006.png" width="40 px" alt="React logo" />
 
-    <h1>Fun facts about React</h1>
+      <h1>Fun facts about React</h1>
 
-    <ul>
-      <li>Was first released in 2013</li>
-      <li>Was originally created by Jordan Walke</li>
-      <li>Has well over 100K stars on GitHub</li>
-      <li>Is Maintained by Meta</li>
-      <li>Powers thousands of enterprise apps, including mobile apps</li>
-    </ul>
-  </main>
+      <ul>
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100K stars on GitHub</li>
+        <li>Is Maintained by Meta</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
+    </main>
   )
 }
 
 function Page() {
   return (
-      <div>
-      <header>
-          <img src = "react-logo.png" width = "40 px" alt = "React Logo"/>
-      </header>
-      <main>
-          <h1>
-              Reasons I'm excited to learn React
-          </h1>
-          <ol>
-              <li>High paying job</li>
-              <li>Lot of job opportunities</li>
-          </ol>
-      </main>
-      <footer>
-          ©2024 Umar development. All rights reserved.
-      </footer>
-      </div>
-      
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+
   )
 }

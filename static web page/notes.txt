@@ -1,3 +1,4 @@
+10/12
 React
 
 rendering all our markup using react inside markup
@@ -42,4 +43,28 @@ React element -> JSX Syntax -> createElement -> JS Object -> react interprets th
 WorkAround For <div> in Component is to use Fragment In-Built component in React library.
 
 <> </> -> under the hood react implements the fragment for us.
+
+
+11/12
+
+Parent - Child Components:
+	-> Component rendering another component, this forms a tree hierarchy. Which we can call Parent-Child component relationship.
+	
+
+Reason to use className in React, rather than the native class:
+	Because the react is going to take the JSX and turn them to DOM element, in Vanilla JS if we were to add a className to an element we would use the className property for that element
+
+
+If we export default something, we can call it by any name in the importing file
+
+
+
+
+
+
+
+
+
+
+
 
