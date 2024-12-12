@@ -57,6 +57,18 @@ Reason to use className in React, rather than the native class:
 
 If we export default something, we can call it by any name in the importing file
 
+Props -> makes our components more reusable.
+
+Similar example to a props would be HTML attribute.
+
+Using props we can pass data to a component.
+
+How to pass data to a component in React?
+
+<ComponentName name="no one" /> -> the name is called props
+
+
+
 
 
 
