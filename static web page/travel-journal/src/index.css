@@ -53,6 +53,7 @@ article.journal-entry .marker {
   text-transform: uppercase;
   font-size: 0.7rem;
   margin-right: 12px;
+  letter-spacing: 0.15rem;
 }
 
 .info-container a {

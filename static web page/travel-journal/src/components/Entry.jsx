@@ -3,7 +3,7 @@ export default function Entry(props) {
     return (
         <article className="journal-entry">
             <div className="main-image-container">
-                <img className="main-image" src={props.img} alt="Mount Fuji"></img>
+                <img className="main-image" src={props.img} alt={props.place}></img>
             </div>
             <div className="info-container">
                 <img className="marker" src="src/assets/marker.png" alt="marker icon"></img>
