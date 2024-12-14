@@ -67,6 +67,10 @@ How to pass data to a component in React?
 
 <ComponentName name="no one" /> -> the name is called props
 
+Destructuring props -> pulling out particular attributes from an object.
+
+To pass any other data type as a prop to a component we surround them with curly brace. 
+	Eg: <Joke upvote={10} />
 
 
 
