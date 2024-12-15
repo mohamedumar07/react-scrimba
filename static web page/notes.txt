@@ -72,7 +72,14 @@ Destructuring props -> pulling out particular attributes from an object.
 To pass any other data type as a prop to a component we surround them with curly brace. 
 	Eg: <Joke upvote={10} />
 
+=> React can render arrays.
+	-> If we pass {arrayVar} it would generate the arrayVar values but in a concatenated form.
 
+When mapping over an array, we should have key props for each Component in order to make each one unique, like a primary key in DB
+
+	<Joke key= />
+
+Can pass object as prop just as we do with any other data type in React.
 
 
 
