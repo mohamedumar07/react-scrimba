@@ -82,6 +82,21 @@ When mapping over an array, we should have key props for each Component in order
 Can pass object as prop just as we do with any other data type in React.
 
 
+-------------------------------------------------------------
+
+Static Web Pages:
+	-> Read-only, no user-driven changes to data
+	-> Eg: News sites, recipes and blogs etc..,
+
+Dynamic Web Page:
+	-> User can read and write
+	-> Highly interactive
+	-> Displays our data
+	-> Eg: Bank Website, Ecommerce sites.
+
+
+
+
 
 
 
