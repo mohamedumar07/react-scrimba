@@ -96,6 +96,8 @@ Dynamic Web Page:
 
 
 
+Any of the attributes that we add to our react element will be accessing the actual DOM node, in JS it accesses by the camelCase.
+
 
 
 
