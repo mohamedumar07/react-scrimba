@@ -5,8 +5,8 @@ export default function Header()
     return (
         <>
             <header>
-                <img class = "logo" src={logo} alt="Chef claude logo"></img>
-                <h1 class="header-title">Chef Claude</h1>
+                <img className = "logo" src={logo} alt="Chef claude logo"></img>
+                <h1 className="header-title">Chef Claude</h1>
             </header>
         </>
     )

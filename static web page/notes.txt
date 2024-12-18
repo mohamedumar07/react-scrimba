@@ -100,6 +100,41 @@ Any of the attributes that we add to our react element will be accessing the act
 
 
 
+-> Add event listener to JSX just as we do in HTML, difference is we dont call the event listener function by using (), instead just the name would suffice.
+
+=> event.preventDefault() -> prevents the default behaviour of an event.
+
+
+
+-> Updating the data, and have react recognize that change and reflect it on the page, useState()
+
+State vs Props:
+
+	=> Props are immutable, should not be changed in the body of the component.
+
+	=> State refers to values that are managed by components.
+
+
+React will re-render the component on two occasion,
+	1) When the passing prop to a component changes.
+	2) If the state value inside the component is being changed.
+
+
+View is function(state) in react, because as the reaction to each state changes, the view also get changed based on the data(which is state).
+
+useState(value) => when we pass a value to useState, its initial state
+
+the function that is returned from useState() if we call it and provide a new value, it will re-render the page, it will successfully update state and trigger react to re-render.
+
+
+Directly modifying a state variable is a Big No in react. Like we do using count++
+
+Instead, doing like setCount(count + 1) is okay, because we are providing the new value to the setCount which will then set it to the count state variable, which(setCount) will then update state and re-render the component.
+
+
+
+
+
 
 
 
