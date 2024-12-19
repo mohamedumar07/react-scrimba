@@ -132,6 +132,11 @@ Directly modifying a state variable is a Big No in react. Like we do using count
 Instead, doing like setCount(count + 1) is okay, because we are providing the new value to the setCount which will then set it to the count state variable, which(setCount) will then update state and re-render the component.
 
 
+Anytime we are setting a state, we rely on old state by using a callback function in setFunc()
+
+
+
+
 
 
 
