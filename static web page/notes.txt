@@ -135,7 +135,10 @@ Instead, doing like setCount(count + 1) is okay, because we are providing the ne
 Anytime we are setting a state, we rely on old state by using a callback function in setFunc()
 
 
+Simply modifying state value does not re-render in React.
 
+
+Anytime we want to change the state value, we need to use the setFunction
 
 
 
