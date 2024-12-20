@@ -142,10 +142,23 @@ Anytime we want to change the state value, we need to use the setFunction
 
 
 
+React Forms:
+
+<button> -> works like a normal button outside of the form, inside of a form it works similar like <input type="submit">
 
 
+GET -> data are added to the query string.
+POST -> data are added to a POST request and sent.
 
+Using onSubmit rather than onCLick for a button is much more accessible for the user, as onSubmit also works for enter button.
 
+Instead of using onSubmit we can use action method of a <form> tag to make our code more declarative. 
+
+How do we achieve it?
+
+	-> by passing function as an argument to the action attribute, action={actionFunction}.
+
+	-> the action function in the back will do the preventDefault kind of things for us.
 
 
 
